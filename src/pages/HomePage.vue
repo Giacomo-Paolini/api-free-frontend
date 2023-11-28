@@ -1,17 +1,15 @@
 <template>
-    <div class="p-4 flex flex-col justify-center items-center min-h-screen">
-        <h1 class="text-[40px] mb-4 text-[#BD3246]">Newest Article</h1>
-        <NewestArticle />
-    </div>
+    <h1 class="text-center text-[40px] mb-4 text-[--primary-color]">Articles</h1>
+    <Articles />
 </template>
 
 <script>
-import NewestArticle from '../components/NewestArticle.vue';
+import Articles from '../components/Articles.vue';
 
 export default {
     name: 'HomePage',
     components: { 
-        NewestArticle,
+        Articles,
     },
     data() {
         return {};

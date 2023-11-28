@@ -9,3 +9,7 @@ h1 {
 * {
     font-family: 'Montserrat', sans-serif;
 }
+:root {
+    --primary-color: #BD3246;
+    --secondary-color: rgb(235, 235, 235);
+}

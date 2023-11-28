@@ -8,7 +8,10 @@
 
 <script>
 export default {
-    name: 'ArticlesPage'
+    name: 'CreateArticle',
+    data() {
+        return {};
+    },
 }
 </script>
 
