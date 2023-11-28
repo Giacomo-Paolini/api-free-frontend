@@ -6,7 +6,7 @@
                 <a href="/" class="hover:underline hover:decoration-2">Home</a>
             </li>
             <li>
-                <a href="/articles" class="hover:underline hover:decoration-2">New</a>
+                <a href="/new-article" class="hover:underline hover:decoration-2">New</a>
             </li>
         </ul>
         <div class="flex gap-x-2 justify-self-end">
