@@ -2,11 +2,13 @@
 <template>
   <AppHeader />
   <RouterView />
+  <AppFooter />
 </template>
 
   <script>
   import AppHeader from './components/AppHeader.vue'
   import HomePage from './pages/HomePage.vue'
+  import AppFooter from './components/AppFooter.vue'
   import { store } from './data/store.js'
   import axios from 'axios'
   
@@ -14,7 +16,8 @@
     name: 'App',
     components: {
       HomePage,
-      AppHeader
+      AppHeader,
+      AppFooter,
     },
     data() {
       return {

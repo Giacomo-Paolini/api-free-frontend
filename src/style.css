@@ -13,3 +13,7 @@ h1 {
     --primary-color: #BD3246;
     --secondary-color: rgb(141, 5, 5);
 }
+
+body {
+    padding-bottom: 4rem;
+}
