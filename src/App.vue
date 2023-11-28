@@ -1,8 +1,7 @@
 
 <template>
   <AppHeader />
-  <h3 v-if="store.loading === true" class="text-center text-[40px] mb-4 text-[--primary-color]">Loading...</h3>
-  <RouterView v-else />
+  <RouterView />
 </template>
 
   <script>
@@ -29,7 +28,7 @@
           this.store.articles = response.data
           setTimeout(() => {
             this.store.loading = false
-          }, 800)
+          }, 1000)
         })
       }
     },
